@@ -1,9 +1,11 @@
 require:
+  - ./rubocop/use_from_email.rb
+  - ./rubocop/custom_cop_location.rb
+
+plugins:
   - rubocop-performance
   - rubocop-rails
   - rubocop-rspec
-  - ./rubocop/use_from_email.rb
-  - ./rubocop/custom_cop_location.rb
 
 Layout/LineLength:
   Max: 150
@@ -100,8 +102,6 @@ RSpec/NestedGroups:
 RSpec/MessageSpies:
   Enabled: false
 RSpec/StubbedMock:
-  Enabled: false
-RSpec/FactoryBot/SyntaxMethods:
   Enabled: false
 Naming/VariableNumber:
   Enabled: false
