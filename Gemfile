@@ -41,8 +41,9 @@ gem 'down'
 gem 'gmail_xoauth'
 # Lock net-smtp to 0.3.4 to avoid issues with gmail_xoauth2
 gem 'net-smtp',  '~> 0.3.4'
-# Add net-protocol explicitly to resolve dependency issues with net-pop
+# Explicitly add net-protocol and net-pop to satisfy dependency requirements
 gem 'net-protocol', '>= 0'
+gem 'net-pop', '0.1.2'
 # Prevent CSV injection
 gem 'csv-safe'
 
