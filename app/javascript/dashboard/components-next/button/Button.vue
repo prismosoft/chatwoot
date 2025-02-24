@@ -222,7 +222,7 @@ const linkButtonClasses = computed(() => {
     }"
   >
     <slot v-if="(icon || $slots.icon) && !isLoading" name="icon">
-      <Icon :icon="icon" class="flex-shrink-0" />
+      <Icon :icon="icon" class="flex-shrink-0 w-5 h-5" />
     </slot>
 
     <Spinner v-if="isLoading" class="!w-5 !h-5 flex-shrink-0" />

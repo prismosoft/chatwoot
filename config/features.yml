@@ -26,7 +26,7 @@
   enabled: false
 - name: disable_branding
   display_name: Disable Branding
-  enabled: false
+  enabled: true
   premium: true
 - name: email_continuity_on_api_channel
   display_name: Email Continuity on API Channel
@@ -37,7 +37,7 @@
   help_url: https://chwt.app/hc/help-center
 - name: agent_bots
   display_name: Agent Bots
-  enabled: false
+  enabled: true
   help_url: https://chwt.app/hc/agent-bots
 - name: macros
   display_name: Macros
@@ -107,7 +107,7 @@
   premium: true
 - name: response_bot
   display_name: Response Bot
-  enabled: false
+  enabled: true
   premium: true
   deprecated: true
 - name: message_reply_to
@@ -142,7 +142,9 @@
   premium: true
 - name: custom_roles
   display_name: Custom Roles
-  enabled: false
+  enabled: true
+- name: custom_roles
+  enabled: true
   premium: true
 - name: chatwoot_v4
   display_name: Chatwoot V4
