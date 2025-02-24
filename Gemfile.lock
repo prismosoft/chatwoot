@@ -992,6 +992,7 @@ DEPENDENCIES
   meta_request (>= 0.8.3)
   mock_redis
   neighbor
+  net-protocol
   net-smtp (~> 0.3.4)
   newrelic-sidekiq-metrics (>= 1.6.2)
   newrelic_rpm
